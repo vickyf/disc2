@@ -15,6 +15,12 @@ Gif movies mentioned in the paper: https://www.dropbox.com/sh/hvtb9bf7n4aszlz/AA
 
 ## Model Code
 
+### Requirements
+- MATLAB
+- Image Processing Toolbox
+- Statistics and Machine Learning Toolbox
+- MATLAB Coder
+
 ### Setup
 To be able to run the code, please run the setup function first in MATLAB console
 ```
