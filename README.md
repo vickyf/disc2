@@ -9,9 +9,9 @@ The visual system performs remarkably well to perceive depth order of surfaces w
 
 ## Supporting Files and Documentation
 
-Images used in the paper: https://www.dropbox.com/sh/y1revkz2iutj9t9/AABKhK3U01RJnuvFAAvtO5Jha?dl=0
-Outputs of the model: https://www.dropbox.com/sh/nbpv6vtf1uxy2k5/AABXHs1ktiO_A3BLdGLT7Hfha?dl=0
-Gif movies mentioned in the paper: https://www.dropbox.com/sh/hvtb9bf7n4aszlz/AAD8oJodjXylHbDplrkgpsw_a?dl=0
+- Images used in the paper: https://www.dropbox.com/sh/y1revkz2iutj9t9/AABKhK3U01RJnuvFAAvtO5Jha?dl=0
+- Outputs of the model: https://www.dropbox.com/sh/nbpv6vtf1uxy2k5/AABXHs1ktiO_A3BLdGLT7Hfha?dl=0
+- Gif movies mentioned in the paper: https://www.dropbox.com/sh/hvtb9bf7n4aszlz/AAD8oJodjXylHbDplrkgpsw_a?dl=0
 
 ## Model Code
 
