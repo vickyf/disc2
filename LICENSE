@@ -1,0 +1,2 @@
+# load face detector
+net = cv2.dnn.readNet(prototxtPath, weightsPath)
