@@ -92,7 +92,7 @@ numPair = 400;
 DiscParams.Knear = numPair*2 + 1;
 
 %weight for LCL and GBL for bown
-DiscParams.weightLCL = 0; % local weight if 0 then is orignal model, 0.1 then its augmented
+DiscParams.weightLCL = 0; % local weight if 0 then is orignal model, 1.0 then its augmented
 DiscParams.weightGBL = 1; % global weight
 
 % co-linear criteria for local BOWN

@@ -52,7 +52,7 @@ DiscParams   = disc_params_user();
 ImportParams = import_params_default();
 
 % original model: weightLCL=0
-% augmented model: weightLCL>0 (default weightLCL=0.1)
+% augmented model: weightLCL>0 (default weightLCL=1.0)
 DiscParams.weightLCL = 0;
 
 % file name of the figure to process
