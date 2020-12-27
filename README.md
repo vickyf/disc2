@@ -35,6 +35,6 @@ To run the code you can use run_disc_main. In this function you can:
 1. Change the image you want to process `stim_name`
 2. Use `preferences_user` to select a different input and output folder
 3. Use `disc_params_user` to change any model parameters, note the ones set in `disc_params_default` are those used in the paper
-4. Set `DiscParams.weightLCL` to 0.1 if you want to try out the augmented version of the model
+4. Set `DiscParams.weightLCL` to 1.0 if you want to try out the augmented version of the model
 
 After running this code results will be shown to you.
