@@ -45,60 +45,60 @@ main_folder = pwd;
 % compile disc_compute_bown to speed up computation
 disp('>>> Compiling model code')
 %% Create configuration object of class 'coder.EmbeddedCodeConfig'.
-cfg = coder.config('lib','ecoder',true);
-cfg.GenerateReport = true;
-cfg.ReportPotentialDifferences = false;
-cfg.GenCodeOnly = true;
+% cfg = coder.config('lib','ecoder',true);
+% cfg.GenerateReport = true;
+% cfg.ReportPotentialDifferences = false;
+% cfg.GenCodeOnly = true;
 
 %% Define argument types for entry-point 'disc_compute_bown'.
-ARGS = cell(1,1);
-ARGS{1} = cell(2,1);
-ARGS_1_1 = struct;
-ARGS_1_1.stim_name = coder.newtype('string');
-ARGS_1_1.stim_name.Properties.Value = coder.typeof('X',[1 13]);
-ARGS_1_1.num_nodes = coder.typeof(0);
-ARGS_1_1.pos_x = coder.typeof(0,[1 1192]);
-ARGS_1_1.pos_y = coder.typeof(0,[1 1192]);
-ARGS_1_1.dx = coder.typeof(0,[1 1192]);
-ARGS_1_1.dy = coder.typeof(0,[1 1192]);
-ARGS_1_1.angle = coder.typeof(0,[1 1192]);
-ARGS_1_1.bown = coder.typeof(0,[1 1192]);
-ARGS_1_1.color_norm = coder.typeof(0,[1 1192]);
-ARGS_1_1.color_contrast = coder.typeof(0,[1 1192]);
-ARGS_1_1.bown_timecourse = coder.typeof(0,[2385 1192]);
-ARGS_1_1.num_iter = coder.typeof(0);
-ARGS_1_1.dist_decay = coder.typeof(0,[1192 1192]);
-ARGS_1_1.distance = coder.typeof(0,[1192 1192]);
-ARGS_1_1.agreement = coder.typeof(0,[1192 1192   6]);
-ARGS_1_1.axes_range = coder.typeof(0,[1 4]);
-ARGS_1_1_NB = struct;
-ARGS_1_1_NB.NBind = coder.typeof(0,[1192   1]);
-ARGS_1_1_NB.NBpos_x = coder.typeof(0,[1192   1]);
-ARGS_1_1_NB.NBpos_y = coder.typeof(0,[1192   1]);
-ARGS_1_1_NB.NBang = coder.typeof(0,[1192   1]);
-ARGS_1_1_NB.NBdx = coder.typeof(0,[1192   1]);
-ARGS_1_1_NB.NBdy = coder.typeof(0,[1192   1]);
-ARGS_1_1_NB.NBcolor_norm = coder.typeof(0,[1192   1]);
-ARGS_1_1.NB = coder.typeof(ARGS_1_1_NB,[1 801]);
-ARGS{1}{1} = coder.typeof(ARGS_1_1);
-ARGS_1_2 = struct;
-ARGS_1_2.initial_bown = coder.typeof(0);
-ARGS_1_2.space_constant = coder.typeof(0);
-ARGS_1_2.agreement_combo = coder.typeof(0,[1 3]);
-ARGS_1_2.bown_params = coder.typeof(0,[1 7]);
-ARGS_1_2.convergence_lambda = coder.typeof(0);
-ARGS_1_2.max_iter = coder.typeof(0);
-ARGS_1_2.Knear = coder.typeof(0);
-ARGS_1_2.weightLCL = coder.typeof(0);
-ARGS_1_2.weightGBL = coder.typeof(0);
-ARGS_1_2.linearAngTh = coder.typeof(0);
-ARGS_1_2.distLCL = coder.typeof(0);
-ARGS{1}{2} = coder.typeof(ARGS_1_2);
+% ARGS = cell(1,1);
+% ARGS{1} = cell(2,1);
+% ARGS_1_1 = struct;
+% ARGS_1_1.stim_name = coder.newtype('string');
+% ARGS_1_1.stim_name.Properties.Value = coder.typeof('X',[1 13]);
+% ARGS_1_1.num_nodes = coder.typeof(0);
+% ARGS_1_1.pos_x = coder.typeof(0,[1 1192]);
+% ARGS_1_1.pos_y = coder.typeof(0,[1 1192]);
+% ARGS_1_1.dx = coder.typeof(0,[1 1192]);
+% ARGS_1_1.dy = coder.typeof(0,[1 1192]);
+% ARGS_1_1.angle = coder.typeof(0,[1 1192]);
+% ARGS_1_1.bown = coder.typeof(0,[1 1192]);
+% ARGS_1_1.color_norm = coder.typeof(0,[1 1192]);
+% ARGS_1_1.color_contrast = coder.typeof(0,[1 1192]);
+% ARGS_1_1.bown_timecourse = coder.typeof(0,[2385 1192]);
+% ARGS_1_1.num_iter = coder.typeof(0);
+% ARGS_1_1.dist_decay = coder.typeof(0,[1192 1192]);
+% ARGS_1_1.distance = coder.typeof(0,[1192 1192]);
+% ARGS_1_1.agreement = coder.typeof(0,[1192 1192   6]);
+% ARGS_1_1.axes_range = coder.typeof(0,[1 4]);
+% ARGS_1_1_NB = struct;
+% ARGS_1_1_NB.NBind = coder.typeof(0,[1192   1]);
+% ARGS_1_1_NB.NBpos_x = coder.typeof(0,[1192   1]);
+% ARGS_1_1_NB.NBpos_y = coder.typeof(0,[1192   1]);
+% ARGS_1_1_NB.NBang = coder.typeof(0,[1192   1]);
+% ARGS_1_1_NB.NBdx = coder.typeof(0,[1192   1]);
+% ARGS_1_1_NB.NBdy = coder.typeof(0,[1192   1]);
+% ARGS_1_1_NB.NBcolor_norm = coder.typeof(0,[1192   1]);
+% ARGS_1_1.NB = coder.typeof(ARGS_1_1_NB,[1 801]);
+% ARGS{1}{1} = coder.typeof(ARGS_1_1);
+% ARGS_1_2 = struct;
+% ARGS_1_2.initial_bown = coder.typeof(0);
+% ARGS_1_2.space_constant = coder.typeof(0);
+% ARGS_1_2.agreement_combo = coder.typeof(0,[1 3]);
+% ARGS_1_2.bown_params = coder.typeof(0,[1 7]);
+% ARGS_1_2.convergence_lambda = coder.typeof(0);
+% ARGS_1_2.max_iter = coder.typeof(0);
+% ARGS_1_2.Knear = coder.typeof(0);
+% ARGS_1_2.weightLCL = coder.typeof(0);
+% ARGS_1_2.weightGBL = coder.typeof(0);
+% ARGS_1_2.linearAngTh = coder.typeof(0);
+% ARGS_1_2.distLCL = coder.typeof(0);
+% ARGS{1}{2} = coder.typeof(ARGS_1_2);
 
 %% Invoke MATLAB Coder.
-cd(strcat(pwd,'/disc'));
-codegen -config cfg disc_compute_bown -args ARGS{1}
-cd(main_folder)
+% cd(strcat(pwd,'/disc'));
+% codegen -config cfg disc_compute_bown -args ARGS{1}
+% cd(main_folder)
 
 %% generate preferences file from preferences_default
 % create user preferences file
