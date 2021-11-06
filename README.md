@@ -26,7 +26,7 @@ To be able to run the code, please run the setup function first in MATLAB consol
 ```
 setup
 ```
-This will create the appropriate user files, compile the code and add the directory to the path.
+This will create the appropriate user files, and add the directory to the path.
 
 **!Make sure you add the whole disc2 directory to your MATLAB path**
 
