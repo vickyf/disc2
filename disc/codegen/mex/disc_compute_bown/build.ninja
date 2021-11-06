@@ -1,0 +1,60 @@
+# CompilerName=mingw64
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root/build/win64
+matlabdir = G:/Others/MATLAB/R2020
+startdir = E:/home/phnxprj/docs/projects/kogo_colabs/2020-12-05_disc_revision/code/disc2/disc
+
+# Toolchain information
+cc = C:\ProgramData\MATLAB\SupportPackages\R2020b\3P.instrset\mingw_w64.instrset\bin\gcc
+cxx = C:\ProgramData\MATLAB\SupportPackages\R2020b\3P.instrset\mingw_w64.instrset\bin\g++
+linker = C:\ProgramData\MATLAB\SupportPackages\R2020b\3P.instrset\mingw_w64.instrset\bin\gcc
+linkerxx = C:\ProgramData\MATLAB\SupportPackages\R2020b\3P.instrset\mingw_w64.instrset\bin\g++
+
+cflags =  -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I "E:\home\phnxprj\docs\projects\kogo_colabs\2020-12-05_disc_revision\code\disc2\disc\codegen\mex\disc_compute_bown" -I "E:\home\phnxprj\docs\projects\kogo_colabs\2020-12-05_disc_revision\code\disc2\disc" -I "E:\home\phnxprj\docs\projects\kogo_colabs\2020-12-05_disc_revision\code\disc2\disc\codegen\mex\disc_compute_bown\interface" -I "G:\Others\MATLAB\R2020\extern\include" -I "." -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1  
+
+cxxflags =  -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I "E:\home\phnxprj\docs\projects\kogo_colabs\2020-12-05_disc_revision\code\disc2\disc\codegen\mex\disc_compute_bown" -I "E:\home\phnxprj\docs\projects\kogo_colabs\2020-12-05_disc_revision\code\disc2\disc" -I "E:\home\phnxprj\docs\projects\kogo_colabs\2020-12-05_disc_revision\code\disc2\disc\codegen\mex\disc_compute_bown\interface" -I "G:\Others\MATLAB\R2020\extern\include" -I "." -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1  
+
+ldflags =  -m64 -Wl,--no-undefined -shared -static -L"G:\Others\MATLAB\R2020\extern\lib\win64\mingw64" -llibmx -llibmex -llibmat -lm -llibmwlapack -llibmwblas -o "disc_compute_bown_mex.mexw64" -L"$matlabdir\extern\lib\win64\mingw64" -llibmwblas -llibemlrt -llibcovrt -llibut -llibmwmathutil  -Wl,--version-script,disc_compute_bown_mex.map
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in -o $out
+
+rule cxx
+    command = $cxx $cxxflags $in -o $out
+
+rule link
+    command = $linker @$out.rsp $ldflags
+    rspfile = $out.rsp
+    rspfile_content = $in
+
+rule linkxx
+    command = $linkerxx $in $ldflags
+
+# Build
+build $builddir/disc_compute_bown_data.o : cc $root/disc_compute_bown_data.c
+build $builddir/rt_nonfinite.o : cc $root/rt_nonfinite.c
+build $builddir/disc_compute_bown_initialize.o : cc $root/disc_compute_bown_initialize.c
+build $builddir/disc_compute_bown_terminate.o : cc $root/disc_compute_bown_terminate.c
+build $builddir/norm.o : cc $root/norm.c
+build $builddir/repmat.o : cc $root/repmat.c
+build $builddir/eml_int_forloop_overflow_check.o : cc $root/eml_int_forloop_overflow_check.c
+build $builddir/mtimes.o : cc $root/mtimes.c
+build $builddir/_coder_disc_compute_bown_api.o : cc $root/interface/_coder_disc_compute_bown_api.c
+build $builddir/_coder_disc_compute_bown_mex.o : cc $root/interface/_coder_disc_compute_bown_mex.c
+build $builddir/disc_compute_bown.o : cc $root/disc_compute_bown.c
+build $builddir/disc_compute_agreement.o : cc $root/disc_compute_agreement.c
+build $builddir/acos.o : cc $root/acos.c
+build $builddir/sqrt.o : cc $root/sqrt.c
+build $builddir/sin.o : cc $root/sin.c
+build $builddir/disc_compute_bown_emxutil.o : cc $root/disc_compute_bown_emxutil.c
+build $builddir/disc_compute_bown_mexutil.o : cc $root/disc_compute_bown_mexutil.c
+build $builddir/_coder_disc_compute_bown_info.o : cc $root/interface/_coder_disc_compute_bown_info.c
+build $builddir/c_mexapi_version.o : cc $matlabdir/extern/version/c_mexapi_version.c
+
+# Link
+build $root\disc_compute_bown_mex.mexw64 : link $builddir/disc_compute_bown_data.o $builddir/rt_nonfinite.o $builddir/disc_compute_bown_initialize.o $builddir/disc_compute_bown_terminate.o $builddir/norm.o $builddir/repmat.o $builddir/eml_int_forloop_overflow_check.o $builddir/mtimes.o $builddir/_coder_disc_compute_bown_api.o $builddir/_coder_disc_compute_bown_mex.o $builddir/disc_compute_bown.o $builddir/disc_compute_agreement.o $builddir/acos.o $builddir/sqrt.o $builddir/sin.o $builddir/disc_compute_bown_emxutil.o $builddir/disc_compute_bown_mexutil.o $builddir/_coder_disc_compute_bown_info.o $builddir/c_mexapi_version.o 

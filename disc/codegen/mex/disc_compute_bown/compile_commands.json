@@ -1,0 +1,116 @@
+[
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   disc_compute_bown_data.c -o build/win64/disc_compute_bown_data.o",
+    "file": "disc_compute_bown_data.c",
+    "output": "build/win64/disc_compute_bown_data.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   rt_nonfinite.c -o build/win64/rt_nonfinite.o",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   disc_compute_bown_initialize.c -o build/win64/disc_compute_bown_initialize.o",
+    "file": "disc_compute_bown_initialize.c",
+    "output": "build/win64/disc_compute_bown_initialize.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   disc_compute_bown_terminate.c -o build/win64/disc_compute_bown_terminate.o",
+    "file": "disc_compute_bown_terminate.c",
+    "output": "build/win64/disc_compute_bown_terminate.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   norm.c -o build/win64/norm.o",
+    "file": "norm.c",
+    "output": "build/win64/norm.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   repmat.c -o build/win64/repmat.o",
+    "file": "repmat.c",
+    "output": "build/win64/repmat.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   eml_int_forloop_overflow_check.c -o build/win64/eml_int_forloop_overflow_check.o",
+    "file": "eml_int_forloop_overflow_check.c",
+    "output": "build/win64/eml_int_forloop_overflow_check.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   mtimes.c -o build/win64/mtimes.o",
+    "file": "mtimes.c",
+    "output": "build/win64/mtimes.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   interface/_coder_disc_compute_bown_api.c -o build/win64/_coder_disc_compute_bown_api.o",
+    "file": "interface/_coder_disc_compute_bown_api.c",
+    "output": "build/win64/_coder_disc_compute_bown_api.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   interface/_coder_disc_compute_bown_mex.c -o build/win64/_coder_disc_compute_bown_mex.o",
+    "file": "interface/_coder_disc_compute_bown_mex.c",
+    "output": "build/win64/_coder_disc_compute_bown_mex.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   disc_compute_bown.c -o build/win64/disc_compute_bown.o",
+    "file": "disc_compute_bown.c",
+    "output": "build/win64/disc_compute_bown.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   disc_compute_agreement.c -o build/win64/disc_compute_agreement.o",
+    "file": "disc_compute_agreement.c",
+    "output": "build/win64/disc_compute_agreement.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   acos.c -o build/win64/acos.o",
+    "file": "acos.c",
+    "output": "build/win64/acos.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   sqrt.c -o build/win64/sqrt.o",
+    "file": "sqrt.c",
+    "output": "build/win64/sqrt.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   sin.c -o build/win64/sin.o",
+    "file": "sin.c",
+    "output": "build/win64/sin.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   disc_compute_bown_emxutil.c -o build/win64/disc_compute_bown_emxutil.o",
+    "file": "disc_compute_bown_emxutil.c",
+    "output": "build/win64/disc_compute_bown_emxutil.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   disc_compute_bown_mexutil.c -o build/win64/disc_compute_bown_mexutil.o",
+    "file": "disc_compute_bown_mexutil.c",
+    "output": "build/win64/disc_compute_bown_mexutil.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   interface/_coder_disc_compute_bown_info.c -o build/win64/_coder_disc_compute_bown_info.o",
+    "file": "interface/_coder_disc_compute_bown_info.c",
+    "output": "build/win64/_coder_disc_compute_bown_info.o"
+  },
+  {
+    "directory": "E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2020b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\" -I \"E:\\home\\phnxprj\\docs\\projects\\kogo_colabs\\2020-12-05_disc_revision\\code\\disc2\\disc\\codegen\\mex\\disc_compute_bown\\interface\" -I \"G:\\Others\\MATLAB\\R2020\\extern\\include\" -I \".\" -DMODEL=disc_compute_bown_mex -D__USE_MINGW_ANSI_STDIO=1   G:/Others/MATLAB/R2020/extern/version/c_mexapi_version.c -o build/win64/c_mexapi_version.o",
+    "file": "G:/Others/MATLAB/R2020/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.o"
+  }
+]

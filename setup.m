@@ -43,12 +43,13 @@ main_folder = pwd;
 
 %% mexing
 % compile disc_compute_bown to speed up computation
-disp('>>> Compiling model code')
+% disp('>>> Compiling model code')
+
 %% Create configuration object of class 'coder.EmbeddedCodeConfig'.
-% cfg = coder.config('lib','ecoder',true);
+% cfg = coder.config('mex','ecoder',true);
 % cfg.GenerateReport = true;
 % cfg.ReportPotentialDifferences = false;
-% cfg.GenCodeOnly = true;
+% cfg.GenCodeOnly = false;
 
 %% Define argument types for entry-point 'disc_compute_bown'.
 % ARGS = cell(1,1);
